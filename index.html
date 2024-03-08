@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIE KLIMARETTER</title>
+  <!-- Einbindung von Bootstrap als CSS-Framework -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Verlinkung der CSS-Datei -->
+  <link rel="stylesheet" href="./src/styles.css">
+
+  <!-- Anpassung der Textausrichtung-->
+  <script>
+    var userLanguage = (navigator.language || navigator.userLanguage).substring(0, 2);
+    document.documentElement.dir = ['ar', 'he', 'fa', 'ur', 'ps', 'sd', 'ku', 'ckb'].
+      includes(userLanguage) ? 'rtl' : 'ltr';
+  </script>
+
+</head>
+
+<body>
+  <!-- Header mit Logo, Titel und globaler Navigation-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid pl-2 pr-2">
+        <img src="./images/logo.png" class="img-fluid" alt="Logo">
+        <a class="navbar-brand" href="index.html">DIE KLIMARETTER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="index.html" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.tiktok.com/">TikTok</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://de.linkedin.com/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./subpages/kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Im Element Main erscheint das Menü und der Hauptinhalt der Website-->
+  <main>
+    <div id="main-container" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 ">
+          <!--Menü mit lokalen links-->
+          <ul class="list-group list-group-flush">
+            <a li class="list-group-item" href="index.html">Startseite</a></li>
+            <a li class="list-group-item" href="./subpages/aktuelles.html">Aktuelles</a></li>
+            <a li class="list-group-item" href="./subpages/unsere_mission.html">Unsere Mission</a></li>
+            <a li class="list-group-item" href="./subpages/wer_wir_sind.html">Wer wir sind</a></li>
+            <a li class="list-group-item" href="./subpages/mitmachen.html">Mitmachen</a></li>
+          </ul>
+        </div>
+        <!--Hauptinhalt der Website-->
+        <div id="main-content-container" class="col-sm-9 col-md-10">
+          <!--Überschrift zur Begrüßung-->
+          <h1>Herzlich Willkommen</h1>
+          <!--Absätze zum Klimawandel-->
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+            ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit
+            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magna
+            aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+            clita
+            kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+            amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+            aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+            kasd
+            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+          <p>
+            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+            illum dolore
+            eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+            praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+            consectetuer
+            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat.
+          </p>
+          <p>
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex
+            ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+            molestie
+            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
+            odio dignissim
+            qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+          </p>
+          <!-- Tabelle mit fiktiven Datensätzen -->
+          <table class="table">
+            <div id="app"></div>
+            <script type="module" src="./src/main.js"></script>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--Footer mit rechlichen Hinweisen-->
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./subpages/datenschutz.html">Datenschutz</a>
+        </li>
+        <li class=" nav-item">
+          <a class="nav-link" href="./subpages/impressum.html">Impressum</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "Land": "China",
+    "Unternehmen": "Hang Phung International",
+    "CO2_Emissionen": 43.2
+  },
+  {
+    "Land": "Deutschland",
+    "Unternehmen": "Musterfrau GmbH",
+    "CO2_Emissionen": 24.7
+  },
+  {
+    "Land": "USA",
+    "Unternehmen": "American Company",
+    "CO2_Emissionen": 37.2
+  }, 
+  {
+    "Land": "Frankreich",
+    "Unternehmen": "La Boulangerie Villeneuve",
+    "CO2_Emissionen": 18.3
+  },
+  {
+    "Land": "Belgien",
+    "Unternehmen": "Belgium Industry",
+    "CO2_Emissionen": 35.2
+  },
+  {
+    "Land": "Indien",
+    "Unternehmen": "Gupta Electronics",
+    "CO2_Emissionen": 43.4
+  },
+  {
+    "Land": "Japan",
+    "Unternehmen": "Sakura Robotics",
+    "CO2_Emissionen": 28.5
+  },
+  {
+    "Land": "Brasilien",
+    "Unternehmen": "Amazonia Agriculture",
+    "CO2_Emissionen": 31.9
+  },
+  {
+    "Land": "Russland",
+    "Unternehmen": "Siberian Energy",
+    "CO2_Emissionen": 39.8
+  },
+  {
+    "Land": "Kanada",
+    "Unternehmen": "Maple Technologies",
+    "CO2_Emissionen": 22.1
+  },
+  {
+    "Land": "Australien",
+    "Unternehmen": "Kangaroo Construction",
+    "CO2_Emissionen": 26.3
+  },
+  {
+    "Land": "Mexiko",
+    "Unternehmen": "Aztec Motors",
+    "CO2_Emissionen": 33.7
+  },
+  {
+    "Land": "Schweiz",
+    "Unternehmen": "Alpine Pharmaceuticals",
+    "CO2_Emissionen": 15.6
+  },
+  {
+    "Land": "Südkorea",
+    "Unternehmen": "Seoul Solar Solutions",
+    "CO2_Emissionen": 29.8
+  },
+  {
+    "Land": "Saudi-Arabien",
+    "Unternehmen": "Desert Petrochemicals",
+    "CO2_Emissionen": 36.4
+  },
+  {
+    "Land": "Niederlande",
+    "Unternehmen": "Dutch Wind Farms",
+    "CO2_Emissionen": 19.2
+  },
+  {
+    "Land": "Ägypten",
+    "Unternehmen": "Nile Electronics",
+    "CO2_Emissionen": 27.9
+  },
+  {
+    "Land": "Argentinien",
+    "Unternehmen": "Pampas Agro",
+    "CO2_Emissionen": 30.5
+  },
+  {
+    "Land": "Norwegen",
+    "Unternehmen": "Fjord Fisheries",
+    "CO2_Emissionen": 14.8
+  },
+  {
+    "Land": "Spanien",
+    "Unternehmen": "Iberian Solar Solutions",
+    "CO2_Emissionen": 21.7
+  }
+]

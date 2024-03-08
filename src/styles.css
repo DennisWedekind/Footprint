@@ -1,0 +1,23 @@
+/* Allgemeine Stile */
+main {
+    padding-top: 30px;
+
+}
+
+#main-container ul {
+    padding-bottom: 50px;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+html {
+    font-size: 14px;
+}
+
+/* Tabellen Stile */
+
+.card {
+    background: var(--surface-card);
+}
